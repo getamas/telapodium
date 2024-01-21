@@ -1,0 +1,57 @@
+// Colors
+$color-white: #fff;
+$color-white-two: #d8d8d8;
+$color-black: #323232;
+$color-dark: #202839;
+$color-dark-grey-blue: #26324a;
+$color-sand: #e1c77d;
+$color-sand-two: #e1c87e;
+$color-sand-three: #ddb970;
+$color-sandy-brown: #c2a16c;
+$color-toupe: #bf9d6e;
+$color-desert: #d9a55e;
+$color-gold: #cdaa72;
+$color-soft-green: #75c274;
+$color-tomato: #d52b1e;
+
+$brand-primary: $color-dark-grey-blue;
+
+$font-family-normal: 'Poppins', helvetica, arial, sans-serif;
+$font-family-serif: 'Playfair Display', serif;
+
+$font-size-100: 13px;
+$font-size-200: 14px;
+$font-size-300: 15px;
+$font-size-400: 16px;
+$font-size-500: 18px;
+$font-size-600: 24px;
+$font-size-700: 30px;
+$font-size-800: 36px;
+$font-size-900: 48px;
+$font-size-1000: 60px;
+
+$font-weight-thin: 100;
+$font-weight-extralight: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-ultrabold: 900;
+
+$letter-spacing-100: 0.045em;
+$letter-spacing-200: 0.07em;
+$letter-spacing-300: 0.08em;
+$letter-spacing-900: 0.14em;
+$letter-spacing-1000: 0.15em;
+
+$navbar-height-lg: 70px;
+$navbar-height-md: 70px;
+$navbar-height-scrolled: 70px;
+$admin-bar-height-st-md: 46px;
+$admin-bar-height-gt-sm: 32px;
+
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$easeInBack: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+$easeInQuad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+$easeOutQuad: cubic-bezier(0.25, 0.46, 0.45, 0.94); /* easeOutQuad */

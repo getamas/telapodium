@@ -1,0 +1,96 @@
+main {
+  margin-top: $navbar-height-lg;
+
+  @include media-breakpoint-down(md) {
+    margin-top: $navbar-height-md;
+  }
+}
+
+.yco-section {
+  position: relative;
+  padding: 110px 0 120px;
+
+  @include media-breakpoint-down(md) {
+    padding: 80px 0 90px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding: 60px 0 70px;
+  }
+
+  &--dark {
+    background-color: $color-dark-grey-blue;
+  }
+
+  &--light {
+    background-color: $color-gold;
+  }
+
+  &--sm {
+    padding: 80px 0 100px;
+
+    @include media-breakpoint-down(md) {
+      padding: 50px 0 70px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 50px 0 50px;
+    }
+  }
+
+  &--md {
+    padding: 100px 0 110px;
+
+    @include media-breakpoint-down(md) {
+      padding: 80px 0 90px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 50px 0 60px;
+    }
+  }
+
+  &--lg {
+    padding: 120px 0;
+
+    @include media-breakpoint-down(md) {
+      padding: 100px 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      padding: 80px 0;
+    }
+  }
+
+  &--xl {
+    padding: 120px 0 160px;
+
+    @include media-breakpoint-down(md) {
+      padding: 90px 0 130px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 70px 0 80px;
+    }
+  }
+
+  &.info-graphic {
+    padding: 60px 0 160px;
+
+    @include media-breakpoint-down(md) {
+      padding: 60px 0 110px;
+    }
+
+    @include media-breakpoint-down(md) {
+      padding: 50px 0 90px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: 40px 0 70px;
+    }
+  }
+
+  &.contact-form {
+    padding: 80px 0 90px;
+  }
+}

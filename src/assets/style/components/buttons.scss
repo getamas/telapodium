@@ -1,0 +1,35 @@
+.btn {
+  border: 2px solid $color-toupe;
+  padding: 15px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: $color-toupe;
+  letter-spacing: 0.9px;
+  border-radius: 0;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:not(:disabled):not(.disabled):active:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: $color-toupe;
+    color: $color-white;
+    border-color: $color-toupe;
+  }
+
+  &--primary {
+    background-color: $color-toupe;
+    color: $color-white;
+
+    &:hover,
+    &:active,
+    &:not(:disabled):not(.disabled):active:focus {
+      border-color: darken($color-toupe, 15%);
+      background-color: darken($color-toupe, 15%);
+    }
+  }
+}
